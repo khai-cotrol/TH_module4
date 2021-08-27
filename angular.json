@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "2e7e4b8f-b206-4907-90ba-1c68b8e7fd54"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -27,9 +30,21 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/demo.css",
+              "src/assets/css/paper-dashboard.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/bootstrap-notify.js",
+              "src/assets/js/chartjs.min.js",
+              "src/assets/js/demo.js",
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/paper-dashboard.js",
+              "src/assets/js/perfect-scrollbar.jquery.min.js",
+              "src/assets/js/popper.min.js"
+            ]
           },
           "configurations": {
             "production": {
